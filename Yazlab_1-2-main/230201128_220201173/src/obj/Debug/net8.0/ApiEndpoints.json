@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "MessageController",
+    "Method": "GetMessagesByEvent",
+    "RelativePath": "api/Message/GetMessagesByEvent/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MessageController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Message/SendMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SendMessageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
